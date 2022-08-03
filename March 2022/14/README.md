@@ -16,4 +16,4 @@ also. Print one position in one line
 
 #### Boundary Conditions
 
-0 < n <10^19^
+0 < n <10<sup>19</sup>

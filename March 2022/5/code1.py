@@ -1,0 +1,6 @@
+x = int(input())
+if x%12: print((x//12+1)*12-(x%12)+1)
+else: print((x//12)*12-12+1)
+if x%6 == 0 or x%6 == 1: print("Green")
+elif x%6 == 2 or x%6 == 5: print("Orange")
+else: print("Blue")

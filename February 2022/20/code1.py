@@ -1,0 +1,5 @@
+n = input()
+n1 = reversed([i for i in n[::2]])
+n2 = reversed([i for i in n[1::2]])
+print(''.join(n1))
+print(''.join(n2))

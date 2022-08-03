@@ -1,0 +1,1 @@
+print('_'.join([input().title() for _ in range(int(input()))]))

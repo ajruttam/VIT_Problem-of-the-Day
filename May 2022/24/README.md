@@ -5,6 +5,7 @@ are shown in blue colour) of a irregular triangular wave as shown below
 with minimum number of swaps.
 
 ![wave](./pic.jpeg)
+
 Irregular Triangular Wave
 
 For example if seven points 4, 3, 7, 8, 6, 2, 1 are given then they are

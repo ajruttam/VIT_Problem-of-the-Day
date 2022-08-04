@@ -3,8 +3,8 @@
 A new k – base number system using the symbols 0, 1, 2, ..., k-1 is developed.
 Each number in the k-base number system is separated by a comma. Let
 a ,a ,a be a number in k-base number system where a f ε {0, 1, 2, ..., k-1} then
-value of the number in decimal number system is a *k +a *k +a *k . In a 18-
-based number system, value of the number 16, 17, 15 is 15*18 +17*18 +15*18 .
+value of the number in decimal number system is a \* k +a \* k +a \* k . In a 18-
+based number system, value of the number 16, 17, 15 is 15\*18 +17\*18 +15\*18 .
 Given two numbers in k-base number system, write a code to print the sum of
 the numbers in k-base system.
 

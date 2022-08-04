@@ -2,13 +2,13 @@
 
 A string S is said to be derivable from a string 'w' if
 
-1) S is a substring of W.
+1. S is a substring of W.
 
 For eg., S=bcd, W= abcde.
 
 Here, we say that S is a derivative of W of level 0.
 
-2). S is made up of a few symbols from W, without changing the order in which
+2. S is made up of a few symbols from W, without changing the order in which
 the symbols appear in W.
 
 S= abcd ; W = taxbyced.
@@ -20,7 +20,7 @@ before 'a' in W also.
 
 Here we say that S is derivative of W of level 1
 
-3) S is made up of symbols from W by changing the order in which they appear
+3. S is made up of symbols from W by changing the order in which they appear
 in W.
 
 For Eg. S=abcd; W=bsacd.
@@ -83,15 +83,15 @@ Output the respective derivative index
 
 If W is not a derivative of S Output -1.
 
-#### Illustration:
+### Illustration:
 
-##### Input
+#### Input
 
 eb
 
 abcdef
 
-##### Output:
+#### Output:
 
 3
 

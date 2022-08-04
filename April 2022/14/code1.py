@@ -1,0 +1,1 @@
+print("Fail" if (int('0b'+input(),2) - 2)%4 else "Success")

@@ -1,0 +1,1 @@
+print(int(input())*(100-int(input()))//(100-int(input()))*int(input()))

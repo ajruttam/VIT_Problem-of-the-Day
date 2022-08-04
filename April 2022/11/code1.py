@@ -1,0 +1,6 @@
+n = int(input())
+l = input().split()
+a,b = "".join(l),"".join(sorted(l))
+if a == b: print("Correct")
+elif a in b*2: print("Easily correctable",*[i+1 for i in range(n-1) if l[i] > l[i+1]],sep='\n')
+else: print("Not easily correctable")

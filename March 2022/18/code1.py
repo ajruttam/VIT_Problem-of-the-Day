@@ -1,0 +1,6 @@
+x = input()
+n = int(input())
+m = int(input())
+t = float(input())
+if x == 'l': print("{:.2f}".format((abs(n - m) - 1)*t))
+else: print("{:.2f}".format((abs(n - m) + 1)*t))

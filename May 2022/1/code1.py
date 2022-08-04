@@ -1,0 +1,9 @@
+n1 = list(map(int, input().split(",")))[::-1]
+n2 = list(map(int, input().split(",")))[::-1]
+n = int(input())
+n1n = sum([(n**(len(n1) - i - 1))*n1[i] for i in range(len(n1))])
+n2n = sum([(n**(len(n2) - i - 1))*n2[i] for i in range(len(n2))])
+s = n1n + n2n
+string = []
+while s > 0: string.append(str(s%n)); s //= n
+print(*string,sep = ",")

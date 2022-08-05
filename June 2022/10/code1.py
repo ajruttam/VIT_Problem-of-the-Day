@@ -1,0 +1,1 @@
+print({i + 1: input() for i in range(7)}[int(input())])

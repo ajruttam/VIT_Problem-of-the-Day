@@ -1,0 +1,6 @@
+p, m = int(input()), int(input())
+l = list(map(int, input().split()))
+e = int(input())
+if p + sum(l) == e: print("Levi")
+elif p + sum(l) < e: print("Beast")
+else: print("Jaw")

@@ -19,7 +19,7 @@ Each test case consists of two lines of input.
 The first line of each test case contains an integer N — the
 length of the array A.
 
-The next line contains N space-separated integer A<sup>1</sub> , A<sup>2</sup> ,…,A<sup>N</sup>,
+The next line contains N space-separated integer A<sub>1</sub> , A<sub>2</sub> ,…,A<sub>N</sub>,
 denoting the elements of the array A.
 
 #### Output Format
